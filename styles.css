@@ -1,0 +1,62 @@
+/* RAMOS, Rethaniel A.
+    11839864
+    CCAPDEV X22
+    17 February 2020 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    padding: 4em;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: calc(1.5rem + 3.6vw);
+}
+
+label, input {
+    font-size: calc(.25rem + .6vw);
+}
+
+input {
+    font-family: 'DM Sans', sans-serif;
+}
+
+#submit {
+    padding: 0 5px;
+}
+
+#wrapper {
+    margin-bottom: 4em;
+}
+
+#container {
+    width: auto;
+    column-count: 3;
+    column-gap: 2em;
+}
+
+#container .col {
+    break-inside: avoid;
+    column-span: none;
+}
+
+img {
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+@media screen and (max-width: 992px) {
+    #container {
+        column-count: 1;
+    }
+}
